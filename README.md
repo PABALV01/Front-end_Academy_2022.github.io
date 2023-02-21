@@ -1,3 +1,2 @@
-Argentina Programa 4.0 
-TICMAS Academy 
+Argentina programa 4.0. 
 Primeros pasos en el desarrollo front-end 
