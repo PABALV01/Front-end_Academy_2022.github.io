@@ -2,10 +2,26 @@ body {
   background-color: powderblue;
   font-family: consolas; 
 }
+
 h1 {
   color: blue;
 }
+
+h3 {
+  color: blue;
+} 
+
 p {
-  color: Red;
-  font-size: 125%; 
+  color: red;
+  font-size: 125%;  
+} 
+
+
+li {
+  color: black;
+  font-size: 110%; 
+} 
+
+div {
+  style="border: 1px solid black";  
 } 
