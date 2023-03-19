@@ -5,13 +5,30 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">  
 <link rel="stylesheet" href="style.css"> 
 <style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 450px;
+  cursor: pointer;
+} 
+
+.button2 {background-color: #008CBA;} /* Blue */ 
+
 body {
         font-family: 'Roboto', serif;
         font-size: 16px;
 } 
+
 h3 {
   color: blue;
-}  
+  font-size: 150%; 
+}
+
 div {
   border: 3px outset red;
   background-color: lightcyan;    
@@ -26,12 +43,12 @@ div {
 <h2 ALIGN="CENTER">Programador web</h2> 
 	<p ALIGN="CENTER">(280) 656-5044</p>
 	<p ALIGN="CENTER"><a href="mailto:elijah.sanchez@example.com">elijah.sanchez@example.com</a></p>  
-	<P>&#12288;</P> 
-	
+	<P>&#12288;</P>
+		
 <h3>Habilidades</h3>
      <div>
       <ul>
-        <li>Conocimiento avanzado en lenguajes de programación Python, C++, C# y Java</li>
+        <li>Conocimiento avanzado en lenguajes de programación Python, C++, C#, Java y JavaScript</li>
         <li>Desarrollo de páginas webs y aplicaciones móviles</li>
         <li>Bases de datos relacionales (<a href="https://www.mysql.com/" target="_blank">MySQL</a>) y documentales (<a href="https://www.mongodb.com/" target="_blank">MongoDB<a/>)</li>
 	<li>Trabajo en equipo</li>
@@ -39,45 +56,43 @@ div {
         <li>Atención a los detalles</li> 
       </ul>
     </div>   
-        <P>&#12288;</P>  
-	
+        	
 <h3>Experiencia profesional</h3>
      <div>
       <ul>
-        <li>Efficient Programming Inc., Palo Alto, CA.<br>Período: desde Febrero de 2020 a la Actualidad<br>Funciones: Desarrollador front-end</li>
-        <li>Worldwide Development LLC, San Francisco, CA.<br>Período: desde Nov. 2017 a Enero de 2020<br>Funciones: Especialista en diseño web e interfaz</li>
+        <li>Efficient Programming Inc., Palo Alto, CA.<br>Período: desde Febrero de 2020 a la actualidad<br>Funciones: <abbr title="Tuvo a su cargo el desarrollo de múltiples sitios web">Desarrollador front-end</abbr></li>
+        <li>Worldwide Development LLC, San Francisco, CA.<br>Período: desde Nov. 2017 a Enero de 2020<br>Funciones: <abbr title="Ha servido a una multitud de clientes en el diseño de material publicitario diverso incluyendo sitios web, logos, packaging y comerciales impresos y de video">Especialista en diseño e interfaz web</abbr></li>
       </ul>
     </div>  
-	<P>&#12288;</P>  
-
+	
 <h3>Información personal</h3>
     <div>
       <ul>
         <li>Fecha de nacimiento: Octubre 7, 1992</li>
         <li>Nacionalidad: EE.UU.</li>
         <li>Domicilio: 6101 W Sherman Dr, San Diego, CA 93611</li>
-	<li><a class="Navbar-btn Navbar-btn--main" href="https://raw.githubusercontent.com/PABALV01/Front-end_Academy_2022.github.io/main/Cv_Elijah_Sanchez.pdf" target="_blank">Descargar<span> Cv</span>
-        </a>
-      </li> 
       </ul>
     </div> 
-	<P>&#12288;</P>  
-	
+		
 <h3>Educación</h3> 
      <div>
       <ul>
-        <li>Universidad de California en San Diego <br> Título obtenido: Ingeniero en informática (2017)</li>
+        <li>Universidad de California en San Diego (UCSD)<br> Título obtenido: Ingeniero en informática (2017)</li>
       </ul>
      </div> 
- 	<P>&#12288;</P> 
-	
+ 		
 <h3>Referencias</h3> 
       <div>
        <ul> 
 	<li>Se suministrarán a solicitud del interesado</li> 
        </ul>
       </div> 
-       
+	<P>&#12288;</P> 
+
+<form>
+<input type="button" class="button button2" value="Descargar Cv" onClick="window.location.href='https://raw.githubusercontent.com/PABALV01/Front-end_Academy_2022.github.io/main/Cv_Elijah_Sanchez.pdf'"target="_blank">  
+</form> 
+	<P>&#12288;</P> 
 </body>
 
 </html>    
