@@ -9,7 +9,8 @@ h1 {
 
 h3 {
   color: blue;
-} 
+  font-size: 120%; 
+}
 
 p {
   color: red;
@@ -24,4 +25,8 @@ li {
 
 div {
   style="border: 1px solid black";  
+} 
+
+abbr {
+  color: blueViolet; 
 } 
